@@ -1,0 +1,51 @@
+.L1 {
+  color: gold;
+}
+
+.L2 {
+  color: red;
+  float: left;
+}
+
+.L3 {
+  color: blue;
+  float: right;
+}
+
+.LB {
+  color: green;
+}
+
+.row1 {
+  height: 55%;
+}
+.row2 {
+
+  }
+.row3 {
+  height: 40%;
+}
+
+.container {
+  background-image: url("../images/lost-woods.jpg");
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  padding: 20px;
+  border-radius: 2%;
+}
+
+.finalContainer {
+  background-image: url("../images/end.jpg");
+}
+
+.penalty-container {
+  background-image: url("../images/sk-background.png");
+}
+
+.skull-kid {
+  height: 200px;
+  width: auto;
+  display: block;
+  margin-left: 100px;
+}

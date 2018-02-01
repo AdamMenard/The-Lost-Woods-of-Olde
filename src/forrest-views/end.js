@@ -2,20 +2,20 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './start.css';
 
-class Correct2 extends Component {
+class End extends Component {
   constructor() {
     super();
     this.state = {
-      url: [`/p1`, `/p1`, `/c3`, `/c1`]
+      url: [`/`, `/p1`, `/p1`, `../`]
     }
   }
   render() {
     return(
-      <div class="container">
+      <div class="container finalContainer">
 
         <div class="row align-items-end row1">
           <div class="col col1">
-            <Link className="L1" to={this.state.url[0]}>Forward</Link>
+            <Link className="L1" to={this.state.url[0]}>Congratulations</Link>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ class Correct2 extends Component {
 
         <div class="row align-items-end row3">
           <div class="col col3">
-            <Link className="LB" to={this.state.url[3]}>Turn Back🧚🏻‍♀️🧚🏻‍♀️</Link>
+            <Link className="LB" to={this.state.url[3]}>To Back:</Link>
           </div>
         </div>
 
@@ -37,4 +37,4 @@ class Correct2 extends Component {
   } // end render
 }
 
-export default Correct2;
+export default End;
